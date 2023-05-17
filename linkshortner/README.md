@@ -8,7 +8,7 @@ This is a simple link shortener application built with Python and Flask. It allo
 To get started, clone this repository and install the dependencies:
 
 ``` bash
-git clone https://github.com/bard/link-shortener.git
+git clone https://github.com/shubhamashish33/url_shortner
 cd link-shortener
 pip install -r requirements.txt
 ```
@@ -20,6 +20,11 @@ flask run
 ```
 
 The application will be available at <http://localhost:5000>.
+
+
+## Screenshot
+![image](https://github.com/shubhamashish33/url_shortner/assets/78084828/33025976-c8c2-4933-aab4-6b4caf3c3153)
+
 
 ## Usage
 
