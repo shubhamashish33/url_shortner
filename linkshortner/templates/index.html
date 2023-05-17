@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+<h1>
+    Shorten <span class="color-effect">Your URL</span>
+</h1>
+
+<form action="" method="post">
+    <label for="url">Enter your URL</label>
+    <input type="url" name="urlrequest" id="urlrequest">
+    <button type="submit"> Shorten URL </button>
+</form>
+
+{% if shortenurl %}
+<h2> Your Shortened URL is </h2>
+<a href="{{shortenurl}}">{{shortenurl}}</a>
+<h6>URL is copied to <span class="color-effect">clipboard</span></h6>
+{% endif %}
+
+
+
+{% endblock%}

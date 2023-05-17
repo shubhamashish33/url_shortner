@@ -1,0 +1,11 @@
+black
+isort
+flask
+pyperclip
+pyshorteners
+
+
+
+
+
+
